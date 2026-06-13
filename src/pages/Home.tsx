@@ -1,7 +1,7 @@
 
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Plane, Clock, CalendarDays, MapPin } from 'lucide-react';
+import { ArrowRight, Plane, Clock, CalendarDays, MapPin, QrCode } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { useBookingStore } from '@/lib/store';
