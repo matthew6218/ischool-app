@@ -16,7 +16,7 @@ export default function MobileLayout() {
       path: status === 'checked-in' ? '/status' : '/check-in' 
     },
     { icon: MapPin, label: 'Status', path: '/status' },
-    { icon: Info, label: 'Hotel', path: '/info' },
+    { icon: Info, label: 'Info', path: '/info' },
   ];
 
   return (

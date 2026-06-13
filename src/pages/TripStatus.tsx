@@ -16,7 +16,7 @@ export default function TripStatus() {
     nationality: guest?.nationality || '',
     id: guest?.passportOrHKID || '',
     room: roomNumber || 'Pending',
-    type: 'runway1331-digital-key'
+    type: 'runway1331-youth-pass'
   });
 
   return (
@@ -27,7 +27,7 @@ export default function TripStatus() {
     >
       <div className="mb-6 text-center">
         <h1 className="text-2xl font-light mb-1">Digital Pass</h1>
-        <p className="text-muted-foreground text-sm">Runway1331 Hotel & Suites</p>
+        <p className="text-muted-foreground text-sm">Runway 1331 • Kai Tak, Hong Kong</p>
       </div>
 
       {status === 'checked-in' ? (
@@ -102,7 +102,7 @@ export default function TripStatus() {
           </div>
           <h2 className="text-xl font-semibold mb-2">Check-in Required</h2>
           <p className="text-muted-foreground text-sm mb-8">
-            Complete your online check-in to generate your digital room key and boarding pass.
+            Complete your online check-in to receive your digital residency pass.
           </p>
           <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
             <a href="/check-in">Start Check-in</a>

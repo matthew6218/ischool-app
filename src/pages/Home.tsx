@@ -21,13 +21,13 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent z-10" />
         <img 
           src="https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?auto=compress&cs=tinysrgb&w=800" 
-          alt="Runway1331 Hotel" 
+          alt="Runway 1331 Kai Tak" 
           className="w-full h-full object-cover"
         />
         <div className="absolute top-12 left-6 z-20">
           <div className="flex items-center gap-2 text-primary font-bold tracking-widest text-sm mb-1">
             <Plane className="w-4 h-4" />
-            <span>RUNWAY1331</span>
+            <span>RUNWAY 1331</span>
           </div>
           <h1 className="text-3xl font-light text-white tracking-tight">
             Welcome to <br />
@@ -101,8 +101,8 @@ export default function Home() {
               <Clock className="w-5 h-5" />
             </div>
             <div>
-              <p className="text-sm font-medium text-white">Room Service</p>
-              <p className="text-xs text-muted-foreground">Available 24/7</p>
+              <p className="text-sm font-medium text-white">Public Programs</p>
+              <p className="text-xs text-muted-foreground">Workshops & Events</p>
             </div>
           </div>
         </div>

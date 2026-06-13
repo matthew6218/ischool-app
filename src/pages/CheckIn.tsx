@@ -32,7 +32,7 @@ export default function CheckIn() {
           <CheckCircle2 className="w-8 h-8" />
         </div>
         <h2 className="text-2xl font-semibold mb-2">Already Checked In</h2>
-        <p className="text-muted-foreground mb-8">You have successfully completed your online check-in.</p>
+        <p className="text-muted-foreground mb-8">You have successfully completed your check-in and joined the Runway 1331 community.</p>
         <Button onClick={() => navigate('/status')} className="w-full">
           View Digital Pass
         </Button>
@@ -71,7 +71,7 @@ export default function CheckIn() {
       <div className="p-6">
         <div className="mb-8">
           <h2 className="text-2xl font-light mb-2">Guest Details</h2>
-          <p className="text-sm text-muted-foreground">Please confirm your information to generate your digital room key.</p>
+          <p className="text-sm text-muted-foreground">Please confirm your details to begin your residency at Runway 1331.</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6">

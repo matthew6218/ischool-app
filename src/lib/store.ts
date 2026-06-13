@@ -28,7 +28,7 @@ interface BookingState {
 const INITIAL_BOOKING = {
   bookingRef: 'RWY-8X92',
   status: 'pending' as const,
-  roomType: 'Executive Runway Suite',
+  roomType: 'Runway Residency Suite',
   checkInDate: '2026-10-15',
   checkOutDate: '2026-10-18',
   guest: null,
