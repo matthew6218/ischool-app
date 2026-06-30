@@ -1,8 +1,9 @@
 
 {
-  "name": "vite-shadcn-app",
+  "name": "runway1331-checkin",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "description": "Mobile web app for online check-in and digital residency passes at Runway 1331, Kai Tak, Hong Kong.",
   "type": "module",
   "engines": {
     "node": "20.x"
