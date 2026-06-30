@@ -4,7 +4,7 @@ A modern, mobile-first web application for **online check-in** and **digital res
 
 Runway 1331 revitalizes the historic Kai Tak Airport area into a vibrant hub for accommodation, art, culture, sports, music, and creative collaboration.
 
-![Runway 1331](https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?auto=compress&cs=tinysrgb&w=800)
+![Runway 1331](img.jpg)
 
 ## Features
 
