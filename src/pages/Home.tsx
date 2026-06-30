@@ -6,6 +6,8 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { useBookingStore } from '@/lib/store';
 
+import runwayHero from '../../img.jpg';
+
 export default function Home() {
   const { status, bookingRef, checkInDate, checkOutDate } = useBookingStore();
 
@@ -20,7 +22,7 @@ export default function Home() {
       <div className="relative h-[340px] w-full">
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent z-10" />
         <img 
-          src="https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?auto=compress&cs=tinysrgb&w=800" 
+          src={runwayHero} 
           alt="Runway 1331 Kai Tak" 
           className="w-full h-full object-cover"
         />
